@@ -1,0 +1,25 @@
+{
+    "springifyApp": {
+        "artist" : {
+            "home": {
+                "title": "Artists",
+                "createLabel": "Δημιουργήστε ένα νέο Artist",
+                "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Artist",
+                "search": "Αναζήτηση για Artist"
+            },
+            "created": "Ένα νέο Artist έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+            "updated": "Ένα Artist έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+            "deleted": "Ένα Artist έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+            "delete": {
+                "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Artist {{ id }};"
+            },
+            "detail": {
+                "title": "Artist"
+            },
+            "name": "Name",
+            "country": "Country",
+            "album": "Album",
+            "genre": "Genre"
+        }
+    }
+}

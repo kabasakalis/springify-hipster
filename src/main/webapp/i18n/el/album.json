@@ -1,0 +1,25 @@
+{
+    "springifyApp": {
+        "album" : {
+            "home": {
+                "title": "Albums",
+                "createLabel": "Δημιουργήστε ένα νέο Album",
+                "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Album",
+                "search": "Αναζήτηση για Album"
+            },
+            "created": "Ένα νέο Album έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+            "updated": "Ένα Album έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+            "deleted": "Ένα Album έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+            "delete": {
+                "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Album {{ id }};"
+            },
+            "detail": {
+                "title": "Album"
+            },
+            "title": "Title",
+            "year": "Year",
+            "playlist": "Playlist",
+            "artist": "Artist"
+        }
+    }
+}

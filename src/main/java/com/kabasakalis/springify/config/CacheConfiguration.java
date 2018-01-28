@@ -43,6 +43,15 @@ public class CacheConfiguration {
             cm.createCache(com.kabasakalis.springify.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(com.kabasakalis.springify.domain.User.class.getName() + ".authorities", jcacheConfiguration);
             cm.createCache(com.kabasakalis.springify.domain.SocialUserConnection.class.getName(), jcacheConfiguration);
+            cm.createCache(com.kabasakalis.springify.domain.Genre.class.getName(), jcacheConfiguration);
+            cm.createCache(com.kabasakalis.springify.domain.Genre.class.getName() + ".artists", jcacheConfiguration);
+            cm.createCache(com.kabasakalis.springify.domain.Artist.class.getName(), jcacheConfiguration);
+            cm.createCache(com.kabasakalis.springify.domain.Artist.class.getName() + ".albums", jcacheConfiguration);
+            cm.createCache(com.kabasakalis.springify.domain.Album.class.getName(), jcacheConfiguration);
+            cm.createCache(com.kabasakalis.springify.domain.Album.class.getName() + ".playlists", jcacheConfiguration);
+            cm.createCache(com.kabasakalis.springify.domain.Playlist.class.getName(), jcacheConfiguration);
+            cm.createCache(com.kabasakalis.springify.domain.Playlist.class.getName() + ".albums", jcacheConfiguration);
+            cm.createCache(com.kabasakalis.springify.domain.Role.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

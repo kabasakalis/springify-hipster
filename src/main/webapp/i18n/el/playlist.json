@@ -1,0 +1,23 @@
+{
+    "springifyApp": {
+        "playlist" : {
+            "home": {
+                "title": "Playlists",
+                "createLabel": "Δημιουργήστε ένα νέο Playlist",
+                "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Playlist",
+                "search": "Αναζήτηση για Playlist"
+            },
+            "created": "Ένα νέο Playlist έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+            "updated": "Ένα Playlist έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+            "deleted": "Ένα Playlist έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+            "delete": {
+                "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Playlist {{ id }};"
+            },
+            "detail": {
+                "title": "Playlist"
+            },
+            "name": "Name",
+            "album": "Album"
+        }
+    }
+}

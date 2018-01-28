@@ -1,0 +1,37 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "album",
+            "otherEntityName": "album",
+            "otherEntityRelationshipName": "artist"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "genre",
+            "otherEntityName": "genre",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "country",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180128235446",
+    "entityTableName": "artist",
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "angularJSSuffix": "ng"
+}
